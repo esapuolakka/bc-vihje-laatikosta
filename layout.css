@@ -1,0 +1,25 @@
+body {
+  padding: 2rem;
+  display: flex;
+  flex-direction: row;
+
+}
+li {
+  padding: 1rem;
+  list-style: none;
+}
+
+li:nth-child(even) {
+  padding: 1rem;
+  background-color: #E0EAC4;
+  border-bottom-right-radius: 15px;
+}
+
+#container1 {
+  width: 40%;
+  padding: 2rem;
+}
+
+#container2 {
+  padding: 2rem;
+}
